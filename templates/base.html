@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<header>
+    <a href="{% url 'home' %}">Bosh sahifa</a>
+    <a href="{% url 'about' %}">Saytimiz haqida</a>
+    <a href="{% url 'addition' %}">Qo'shimcha ma'lumot</a>
+    <a href="{% url 'info' %}">Informatsiya</a>
+</header>
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>

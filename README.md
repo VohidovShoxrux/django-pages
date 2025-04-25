@@ -1,2 +1,0 @@
-# django-pages
-# django-pages
